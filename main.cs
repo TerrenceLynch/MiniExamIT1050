@@ -16,19 +16,19 @@ class MainClass {
 
     if (BMI < 18.5)
     {
-      Console.WriteLine("Well, " + name + "you are underweight.");
+      Console.WriteLine("Well, " + name + " you are underweight.");
     }
     else if (BMI >= 18.5 && BMI <= 24.9)
     {
-      Console.WriteLine("Well, " + name + "you are normal/average based on the numbers.");
+      Console.WriteLine("Well, " + name + " you are normal/average based on the numbers.");
     }
     else if (BMI >= 25 && BMI <= 29.9)
     {
-      Console.WriteLine("Well, " + name + "you are overweight...");
+      Console.WriteLine("Well, " + name + " you are overweight...");
     }
     else if (BMI >= 30)
     {
-      Console.WriteLine("Welll, " + name + "you are obese,,,.");
+      Console.WriteLine("Welll, " + name + " you are obese,,,.");
     }
     else 
     {
